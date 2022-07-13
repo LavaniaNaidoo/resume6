@@ -10,6 +10,9 @@ body{
   flex-direction: row;
   overflow: unset;
 }
+.cont{
+  padding-left: 25px;
+}
 #CVPicture{
   width: 15%;
   height: 15%;
@@ -44,6 +47,13 @@ footer {
   width: 3rem;
   margin: 0.5rem;
   height: auto;
+}
+#Icon{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  padding: 25px;
 }
 .link{
   display: inline;
